@@ -12,7 +12,7 @@
 		<h4 class="reg">Registration</h5>	
 	</div>
 	<div id="main_content1">
-		<h4>Account Details</h4>
+		<fieldset class="fs"><legend><h4>Account Details</h4></legend></fieldset>
 	</div>
 	<div id="main_content2">
 		<div id="content1">
@@ -29,45 +29,58 @@
 	</div>
 	<div id='main_content3'>
 		<div class='main_content31'>
-			<h4 class='head'>Personal Details</h4>
+			<fieldset class="fs"><legend><h4 class='head'>Personal Details</h4></legend></fieldset>
 		</div>
 		<div class='main_content32'>
-			<h4 class='head'>Further Information</h4>	
+			<fieldset class="fs2"><legend><h4 class='head'>Further Information</h4>	</legend></fieldset>		
 		</div>
 		<div id="personal_content">
-			<label class="dist_right">Name* &nbsp;<input type="text" name="" class="" value=""></label><br><br>
-			<label class="dist_right">Phone* &nbsp;<input type="text" name="" class="" value=""></label><br><br>
-			<label class="dist_right">Street* &nbsp;<input type="text" name="" class="" value=""></label><br><br>
-			<label class="dist_right">City* &nbsp;<input type="text" name="" class="" value=""></label><br><br>
-			<label class="dist_right">Country* &nbsp;<select id='country'></select></label><br><br>
-			<label class="dist_right">Website* &nbsp;<input type="text" class="" name="" value=""></label><br><br>
-		</div>
-		<div id='further_information'>
-
-			<div id="information1"> 
-				<label>Gender*&nbsp;</label><br><br>
-				<label>Birthdate*&nbsp;</label><br><br>
-				<label>Nationality*&nbsp;</label><br><br>
-				<label>Children*&nbsp;</label><br><br>
-					
-			</div>	
-			<div id="information2">
-				<input type="radio" name="gender" value="">Male</input><input type="radio" name="gender">Female</input></label><br><br>
-				<input type="text" name="email" size="5"><input type="text" size="5" name=""><input type="" name="" size="5"></label><br><br>
-				<select id="nation"></select></label><br><br>
-				<input type="text" name="" size="1" value=""></label><br><br>
-			</div>
-
-			<div id='helpful_information'>
-				<h4 class="bcg">HELPFUL INFORMATION</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-			</div>	
+			<div class="p1">
+				<label class="dist_right mgb">Name* &nbsp;&nbsp;</label><br>		
+				<label class="dist_right mgb">Phone* &nbsp;&nbsp;</label><br>		
+				<label class="dist_right mgb">Street* &nbsp;&nbsp;</label><br>		
+				<label class="dist_right mgb">City* &nbsp;&nbsp;</label><br><br>		
+				<label class="dist_right mgb">Country* &nbsp;&nbsp;</label><br>		
+				<label class="dist_right mgb">Website &nbsp;&nbsp;</label><br>		
 				
+			</div>
+			<div class="p2">
+				<input type="text" name="" class="" value=""><br><br>
+				<input type="text" name="" class="" value=""><br><br>
+				<input type="text" name="" class="" value=""><br><br>
+				<input type="text" name="" class="" value=""><br><br>
+				
+				<select id='country'></select><br><br>
+				<input type="text" class="" name="" value=""><br><br>
+				<!-- <input type="text" class="" name="" value=""><br><br> -->
+			</div>
 		</div>
+		<fieldset class="fs1">
+			<div id='further_information'>
+				<div id="information1"> 
+					<label>Gender*&nbsp;</label><br><br>
+					<label>Birthdate*&nbsp;</label><br><br>
+					<label>Nationality*&nbsp;</label><br><br>
+					<label>Children*&nbsp;</label><br><br>
+				</div>	
+				<div id="information2">
+					<input type="radio" name="gender" value="">Male</input><input type="radio" name="gender">Female</input></label><br><br>
+					<input type="text" name="email" size="5"><input type="text" size="5" name=""><input type="" name="" size="5"></label><br><br>
+					<select id="nation"></select></label><br><br>
+					<input type="text" name="" size="1" value=""></label><br><br>
+				</div>
+				<div id='helpful_information'>
+					<h4 class="bcg">HELPFUL INFORMATION</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur.</p>
+				</div>	
+						
+			</div>	
+		</fieldset>
+		
 		<br><br>
 	</div>
 	<div class="inline">
@@ -80,7 +93,5 @@
 				<input type="submit" name="" class="btn" value="Register">
 			</div>	
 	</div>
-	
-	<!-- <hr> -->
 </body>
 </html>
